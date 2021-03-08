@@ -11,7 +11,9 @@
             "name": "Debug",
             "preLaunchTask": "build",
             // "program": "${workspaceFolder}/main.rs",
-            "program": "${workspaceRoot}/target/debug/${workspaceFolderBasename}",
+            // "program": "${workspaceRoot}/target/debug/${workspaceFolderBasename}",
+            "program": "${workspaceRoot}/learn_var/target/debug/${workspaceFolderBasename}",
+
             "args": [],
             "cwd": "${workspaceFolder}",
    
