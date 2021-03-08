@@ -4,7 +4,7 @@ fn main() {
     //变量定义
     //定义变量如果没有加mut，是不可变的，加了mut才可以修改
     let a = 1;
-    let mut b: u64 = 1;
+    let mut b: u64 = 1;//类型也可以自动推导
     println!("b={}",b);
     b = 2;
     println!("a={}",a);
